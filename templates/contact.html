@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- ======= Hero Section ======= -->
+  <section id="hero-contact">
+    <div class="hero-container logo">
+        <img src="/static/img/Picture1.png" style="padding-bottom: 35px;">
+      <h1>Contact Us</h1>
+      <a href="#down" class="main-btn">Get In Touch</a>
+    </div>
+  </section>
+  <!-- End Hero -->
+        <!--Nav Bar-->
+     
+{% include 'header.html'%}
+<!--End of Navbar-->
+
+<!-------- CONTACT FORM PAGE ------------>
+
+
+<!--Section: Contact v.2-->
+<section class="mb-4" id="down">
+  <div class="container">
+
+  <!--Section heading-->
+  <div class="heading" style="padding-top: 150px;">
+  <h1 class="h1-responsive font-weight-bold text-center my-4">Contact us</h1>
+</div>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+
+  <div class="row mid-text p-225">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5" style="margin-left:125px;">
+        <form id="contact-form" name="contact-form" action="https://formsubmit.co/jadonharsh109@gmail.com" method="POST">
+
+          <!--Grid row-->
+          <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                  <div class="md-form mb-0">
+                      <input type="text" id="name" name="name" class="form-control">
+                      <label for="name" class="">Your name</label>
+                  </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                  <div class="md-form mb-0">
+                      <input type="text" id="email" name="email" class="form-control">
+                      <label for="email" class="">Your email</label>
+                  </div>
+              </div>
+              <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="md-form mb-0">
+                      <input type="text" id="subject" name="subject" class="form-control">
+                      <label for="subject" class="">Subject</label>
+                  </div>
+              </div>
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12">
+
+                  <div class="md-form">
+                      <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      <label for="message">Your message</label>
+                  </div>
+
+              </div>
+          </div>
+          <!--Grid row-->
+          <button type="submit" class="btn btn-success">Send</button>
+
+      </form>
+          <br>
+          <!-- <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="validateForm();">Send</a>
+          </div>
+          <div class="status" style="color: red;font-weight: bold;text-align: center;"></div>
+      </div> -->
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="text-center ">
+          <ul class="list-unstyled mb-0 d-flex justify-content-around">
+              <li><i class="fas fa-map-marker-alt mt-4 fa-2x"></i>
+                  <p>Plot.No.1850, Mansarover Park <br>Shahadara,Delhi-32</p>
+              </li>
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p style="margin-bottom: 0;"><a href="tel:+919811684777" class="text-dark" style="text-decoration: none;">+91-9811684777</a></p>
+                   <p><a href="tel:+919811684666" class="text-dark" style="text-decoration: none;">+91-9811684666</a></p>
+              </li>
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p style="margin-bottom: 0;"><a href="mailto:infot@vcdpl.com?subject=Subject&body=message%20goes%20here" class="text-dark" style="text-decoration: none;">info@vcdpl.com</a></p>
+                  <p><a href="mailto:project@vcdpl.com?subject=Subject&body=message%20goes%20here" class="text-dark" style="text-decoration: none;">project@vcdpl.com</a></p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+</div>
+</section>
+<hr>
+<hr>
+ 
+<!-- ======= Footer ======= -->
+     
+{% include 'footer.html'%}
+<!-- End Footer -->
+
+     <!--Javascript-->
+     <script src="/static/script.js"></script>
+        
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
