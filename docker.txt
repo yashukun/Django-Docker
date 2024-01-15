@@ -1,0 +1,1 @@
+sudo pt install docker.io docker-compose -y
